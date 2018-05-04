@@ -4,12 +4,23 @@ using Patrones.Creacionales.BuilderTest;
 using Patrones.Creacionales.FactoryMethod;
 using Patrones.Creacionales.Prototype;
 using Patrones.Creacionales.Singleton;
+using Patrones.Creacionales.AbstractFactory;
 
 namespace Patrones.Test
 {
     [TestClass]
     public class CreacionalesTest
     {
+        [TestMethod]
+        public void AbstractFactoryTest()
+        {
+            TvAbstractFactory f1 = new FactoryLcdAzul();
+            EnsamblajeTV e1 = new EnsamblajeTV(f1);
+
+            TvAbstractFactory f2 = new FactoryPlasmaAmarillo();
+            EnsamblajeTV e2 = new EnsamblajeTV(f2);
+        }
+
         [TestMethod]
         public void BuilderTest()
         {
