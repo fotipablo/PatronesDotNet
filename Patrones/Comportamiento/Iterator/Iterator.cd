@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/iterator-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="5.856" />
+  </Comment>
+  <Class Name="Patrones.Comportamiento.Iterator.Iterator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAICAAAAAAAUAAAAAAAAAAAABAAAAAIAAABAAAAAA=</HashCode>
+      <FileName>Comportamiento\Iterator\Iterator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patrones.Comportamiento.Iterator.Item">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Iterator\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Comportamiento.Iterator.Collection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACCAAAAAQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Iterator\Iterator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Patrones.Comportamiento.Iterator.IAbstractCollection">
+    <Position X="0.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Iterator\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Patrones.Comportamiento.Iterator.IAbstractIterator">
+    <Position X="3" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Iterator\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

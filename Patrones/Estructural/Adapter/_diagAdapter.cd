@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/adapter-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="4.637" />
+  </Comment>
+  <Class Name="Patrones.Estructural.Adapter.Compound">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAACgAAAAAQAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Estructural\Adapter\Adapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Adapter.RichCompound">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Adapter\Adapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Adapter.ChemicalDatabank">
+    <Position X="2.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAQAA=</HashCode>
+      <FileName>Estructural\Adapter\Adapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

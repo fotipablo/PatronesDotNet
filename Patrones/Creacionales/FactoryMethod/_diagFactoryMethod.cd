@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Mi granito de java&#xD;&#xA;http://migranitodejava.blogspot.com.ar/search/label/Factory%20Method">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="4.637" />
+  </Comment>
+  <Class Name="Patrones.Creacionales.FactoryMethod.Triangulo">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAAAAgAAABAAgAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\FactoryMethod\Triangulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Creacionales.FactoryMethod.TrianguloEquilatero">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\FactoryMethod\TrianguloEquilatero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Creacionales.FactoryMethod.TrianguloEscaleno">
+    <Position X="5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\FactoryMethod\TrianguloEscaleno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Creacionales.FactoryMethod.TrianguloFactory">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\FactoryMethod\TrianguloFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Patrones.Creacionales.FactoryMethod.TrianguloIsosceles">
+    <Position X="2.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\FactoryMethod\TrianguloIsosceles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Patrones.Creacionales.FactoryMethod.ITrianguloFactoryMethod">
+    <Position X="7.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\FactoryMethod\ITrianguloFactoryMethod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

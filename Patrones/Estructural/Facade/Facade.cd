@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/facade-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="4.637" />
+  </Comment>
+  <Class Name="Patrones.Estructural.Facade.Bank">
+    <Position X="3" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade\Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade.Credit">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade\Credit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade.Customer">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade.Loan">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade\Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade.Mortgage">
+    <Position X="1.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAABAAAIAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade\Mortgage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

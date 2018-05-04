@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/facade-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="4.637" />
+  </Comment>
+  <Class Name="Patrones.Estructural.Facade2.AdministracionAlquiler" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.Cliente" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.CuentasAPagar" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.Inmobiliaria" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAgAABRAAAEAAAAAEAAQQAAAAIAAAACAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.Interesado" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.MuestraPropiedad" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.Persona" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.Propietario" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Facade2.VentaInmueble" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Facade2\Bolsa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

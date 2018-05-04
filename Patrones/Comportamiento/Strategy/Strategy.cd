@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/strategy-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="5.856" />
+  </Comment>
+  <Class Name="Patrones.Comportamiento.Strategy.SortStrategy">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Strategy\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Comportamiento.Strategy.QuickSort">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Strategy\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Comportamiento.Strategy.ShellSort">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Strategy\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Comportamiento.Strategy.MergeSort">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Strategy\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Comportamiento.Strategy.SortedList">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAAAAAAAAQAAAAAAQAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Comportamiento\Strategy\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

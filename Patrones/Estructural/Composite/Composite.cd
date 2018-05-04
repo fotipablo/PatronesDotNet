@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/composite-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="5.856" />
+  </Comment>
+  <Class Name="Patrones.Estructural.Composite.DrawingElement" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Composite.PrimitiveElement" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Estructural.Composite.CompositeElement" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAAAAAABQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estructural\Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

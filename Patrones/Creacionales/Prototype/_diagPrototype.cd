@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Fuente: Do factory&#xD;&#xA;http://www.dofactory.com/net/prototype-design-pattern">
+    <Position X="0.5" Y="0.5" Height="0.51" Width="5.856" />
+  </Comment>
+  <Class Name="Patrones.Creacionales.Prototype.ColorPrototype">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Creacionales\Prototype\Prototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Creacionales.Prototype.Color">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABA=</HashCode>
+      <FileName>Creacionales\Prototype\Prototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patrones.Creacionales.Prototype.ColorManager">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creacionales\Prototype\Prototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

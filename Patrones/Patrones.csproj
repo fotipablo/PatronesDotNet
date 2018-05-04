@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4124525D-C9BA-44F5-9526-E3C50FC0396E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Patrones</RootNamespace>
+    <AssemblyName>Patrones</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comportamiento\ChainOfResponsability\Banco.cs" />
+    <Compile Include="Comportamiento\ChainOfResponsability\Director.cs" />
+    <Compile Include="Comportamiento\ChainOfResponsability\EjecutivoDeCuenta.cs" />
+    <Compile Include="Comportamiento\ChainOfResponsability\Gerente.cs" />
+    <Compile Include="Comportamiento\ChainOfResponsability\IAprobador.cs" />
+    <Compile Include="Comportamiento\ChainOfResponsability\LiderTeamEjecutivo.cs" />
+    <Compile Include="Comportamiento\Command2\Calculator.cs" />
+    <Compile Include="Comportamiento\Command2\CalculatorCommand.cs" />
+    <Compile Include="Comportamiento\Command2\ICommand.cs" />
+    <Compile Include="Comportamiento\Command2\User.cs" />
+    <Compile Include="Comportamiento\Command\ArgentinaServer.cs" />
+    <Compile Include="Comportamiento\Command\BrasilServer.cs" />
+    <Compile Include="Comportamiento\Command\Command.cs" />
+    <Compile Include="Comportamiento\Command\Invocador.cs" />
+    <Compile Include="Comportamiento\Command\IServer.cs" />
+    <Compile Include="Comportamiento\Command\PrendeServer.cs" />
+    <Compile Include="Comportamiento\Command\ResetServer.cs" />
+    <Compile Include="Comportamiento\Command\UruguayServer.cs" />
+    <Compile Include="Comportamiento\Interpreter\Interpreter.cs" />
+    <Compile Include="Comportamiento\Iterator\Iterator.cs" />
+    <Compile Include="Comportamiento\Mediator\Mediator.cs" />
+    <Compile Include="Comportamiento\Memento\Caretaker.cs" />
+    <Compile Include="Comportamiento\Memento\Memento.cs" />
+    <Compile Include="Comportamiento\Memento\Persona.cs" />
+    <Compile Include="Comportamiento\Observer\Observer.cs" />
+    <Compile Include="Comportamiento\State\State.cs" />
+    <Compile Include="Comportamiento\Strategy\Strategy.cs" />
+    <Compile Include="Comportamiento\TemplateMethod\Empleado.cs" />
+    <Compile Include="Comportamiento\TemplateMethod\Cliente.cs" />
+    <Compile Include="Comportamiento\TemplateMethod\Persona.cs" />
+    <Compile Include="Comportamiento\TemplateMethod\Socio.cs" />
+    <Compile Include="Comportamiento\Visitor\IVA.cs" />
+    <Compile Include="Comportamiento\Visitor\ProductoDescuento.cs" />
+    <Compile Include="Comportamiento\Visitor\IVisitable.cs" />
+    <Compile Include="Comportamiento\Visitor\IVisitor.cs" />
+    <Compile Include="Comportamiento\Visitor\ProductoNormal.cs" />
+    <Compile Include="Creacionales\AbstractFactory\Color.cs" />
+    <Compile Include="Creacionales\AbstractFactory\ColorAmarillo.cs" />
+    <Compile Include="Creacionales\AbstractFactory\ColorAzul.cs" />
+    <Compile Include="Creacionales\AbstractFactory\EnsamblajeTV.cs" />
+    <Compile Include="Creacionales\AbstractFactory\FactoryLcdAzul.cs" />
+    <Compile Include="Creacionales\AbstractFactory\FactoryPlasmaAmarillo.cs" />
+    <Compile Include="Creacionales\AbstractFactory\LCD.cs" />
+    <Compile Include="Creacionales\AbstractFactory\Plasma.cs" />
+    <Compile Include="Creacionales\AbstractFactory\TV.cs" />
+    <Compile Include="Creacionales\AbstractFactory\TvAbstractFactory.cs" />
+    <Compile Include="Creacionales\Builder\BuilderTest.cs" />
+    <Compile Include="Creacionales\Builder\Builder.cs" />
+    <Compile Include="Creacionales\FactoryMethod\ITrianguloFactoryMethod.cs" />
+    <Compile Include="Creacionales\FactoryMethod\Triangulo.cs" />
+    <Compile Include="Creacionales\FactoryMethod\TrianguloEquilatero.cs" />
+    <Compile Include="Creacionales\FactoryMethod\TrianguloEscaleno.cs" />
+    <Compile Include="Creacionales\FactoryMethod\TrianguloFactory.cs" />
+    <Compile Include="Creacionales\FactoryMethod\TrianguloIsosceles.cs" />
+    <Compile Include="Creacionales\Prototype\Prototype.cs" />
+    <Compile Include="Estructural\Adapter2\IPersonaNueva.cs" />
+    <Compile Include="Estructural\Adapter2\IPersonaVieja.cs" />
+    <Compile Include="Estructural\Adapter2\PersonaNueva.cs" />
+    <Compile Include="Estructural\Adapter2\PersonaVieja.cs" />
+    <Compile Include="Estructural\Adapter2\ViejaToNuevaAdapter.cs" />
+    <Compile Include="Estructural\Adapter\Adapter.cs" />
+    <Compile Include="Estructural\Bridge2\Circulo.cs" />
+    <Compile Include="Estructural\Bridge2\DibujandoNormal.cs" />
+    <Compile Include="Estructural\Bridge2\DibujandoPunteado.cs" />
+    <Compile Include="Estructural\Bridge2\Dibujo.cs" />
+    <Compile Include="Estructural\Bridge2\Forma.cs" />
+    <Compile Include="Estructural\Bridge2\Rectangulo.cs" />
+    <Compile Include="Estructural\Bridge\Bridge.cs" />
+    <Compile Include="Estructural\Composite\Composite.cs" />
+    <Compile Include="Estructural\Decorator\AireAcondicionado.cs" />
+    <Compile Include="Estructural\Decorator\Auto.cs" />
+    <Compile Include="Estructural\Decorator\AutoDecorator.cs" />
+    <Compile Include="Estructural\Decorator\CdPlayer.cs" />
+    <Compile Include="Estructural\Decorator\CierreCentralizado.cs" />
+    <Compile Include="Estructural\Decorator\FiatUno.cs" />
+    <Compile Include="Estructural\Decorator\FordKa.cs" />
+    <Compile Include="Estructural\Decorator\IVendible.cs" />
+    <Compile Include="Estructural\Facade2\Bolsa.cs" />
+    <Compile Include="Estructural\Facade\Bank.cs" />
+    <Compile Include="Estructural\Facade\Customer.cs" />
+    <Compile Include="Estructural\Facade\Credit.cs" />
+    <Compile Include="Estructural\Facade\Loan.cs" />
+    <Compile Include="Estructural\Facade\Mortgage.cs" />
+    <Compile Include="Estructural\Flyweight\Flyweight.cs" />
+    <Compile Include="Estructural\Proxy\IMath.cs" />
+    <Compile Include="Estructural\Proxy\Math.cs" />
+    <Compile Include="Estructural\Proxy\MathProxy.cs" />
+    <Compile Include="InyeccionDependencia\Cuerpo.cs" />
+    <Compile Include="InyeccionDependencia\Robot.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Creacionales\Singleton\Singleton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Creacionales\AbstractFactory\_infoAbstractFactory.txt" />
+    <Content Include="Creacionales\Builder\_infoBuilder.txt" />
+    <Content Include="Creacionales\FactoryMethod\_infoFactoryMethod.txt" />
+    <Content Include="Creacionales\Prototype\_infoPrototype.txt" />
+    <Content Include="Creacionales\Singleton\_infoSingleton.txt" />
+    <Content Include="Estructural\Adapter\_infoAdapter.txt" />
+    <Content Include="Estructural\Bridge\_infoBridge.txt" />
+    <Content Include="Estructural\Composite\_infoComposite.txt" />
+    <Content Include="Resumen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Comportamiento\ChainOfResponsability\_diagChainOfResponsability.cd" />
+    <None Include="Comportamiento\Command2\CommandCalculadora.cd" />
+    <None Include="Comportamiento\Command\Command.cd" />
+    <None Include="Comportamiento\Interpreter\Interpreter.cd" />
+    <None Include="Comportamiento\Iterator\Iterator.cd" />
+    <None Include="Comportamiento\Mediator\Mediator.cd" />
+    <None Include="Comportamiento\Memento\Memento.cd" />
+    <None Include="Comportamiento\Observer\Observer.cd" />
+    <None Include="Comportamiento\State\State.cd" />
+    <None Include="Comportamiento\Strategy\Strategy.cd" />
+    <None Include="Comportamiento\TemplateMethod\TemplateMethod.cd" />
+    <None Include="Comportamiento\Visitor\Visitor.cd" />
+    <None Include="Creacionales\AbstractFactory\_diagAbstractFactory.cd" />
+    <None Include="Creacionales\Builder\_diagBuilder.cd" />
+    <None Include="Creacionales\FactoryMethod\_diagFactoryMethod.cd" />
+    <None Include="Creacionales\Prototype\_diagPrototype.cd" />
+    <None Include="Creacionales\Singleton\_diagSingleton.cd" />
+    <None Include="Estructural\Adapter2\_diagAdapter2.cd" />
+    <None Include="Estructural\Adapter\_diagAdapter.cd" />
+    <None Include="Estructural\Bridge2\_diagBridge2.cd" />
+    <None Include="Estructural\Bridge\_diagBridge.cd" />
+    <None Include="Estructural\Composite\_diagComposite.cd" />
+    <None Include="Estructural\Decorator\Decorator.cd" />
+    <None Include="Estructural\Facade2\Facade2.cd" />
+    <None Include="Estructural\Facade\Facade.cd" />
+    <None Include="Estructural\Flyweight\Flyweight.cd" />
+    <None Include="Estructural\Proxy\Proxy.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
